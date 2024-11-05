@@ -1,0 +1,9 @@
+menu "Project Configuration"
+
+    config STRING
+        string "STRING"
+        default "Hello world"
+        help
+            the string will be printed on the console.
+endmenu
+    
